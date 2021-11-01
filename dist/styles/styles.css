@@ -1,0 +1,26 @@
+.header {
+    height: 15vh;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.employee {
+    margin: 10px;
+    flex: 1 1 30%;
+    max-width: 20rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
