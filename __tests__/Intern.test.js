@@ -7,4 +7,5 @@ test('create new intern object', () => {
     expect(intern.getId()).toEqual('3');
     expect(intern.getEmail()).toEqual('ian@email.com');
     expect(intern.getSchool()).toEqual('some school');
+    expect(intern.getRole()).toEqual('Intern');
 })
